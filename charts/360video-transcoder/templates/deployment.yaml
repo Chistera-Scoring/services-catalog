@@ -13,8 +13,8 @@ spec:
     metadata:
       {{- with .Values.podAnnotations }}
       annotations:
-        ovn.kubernetes.io/ingress_rate: {{ .Values.podIngressRate }}
-        ovn.kubernetes.io/egress_rate: {{ .Values.podEgressRate }}
+        ovn.kubernetes.io/ingress_rate: {{ .Values.network.podIngressRate }}
+        ovn.kubernetes.io/egress_rate: {{ .Values.network.podEgressRate }}
         {{- toYaml . | nindent 8 }}
       {{- end }}
       labels:
