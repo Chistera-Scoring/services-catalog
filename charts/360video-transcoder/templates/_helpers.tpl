@@ -50,13 +50,3 @@ app.kubernetes.io/name: {{ include "360video-transcoder.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end }}
 
-{{/*
-Create the name of the service account to use
-*/}}
-{{- define "360video-transcoder.serviceAccountName" -}}
-{{- if .Values.serviceAccount.create }}
-{{- default (include "360video-transcoder.fullname" .) .Values.serviceAccount.name }}
-{{- else }}
-{{- default "default" .Values.serviceAccount.name }}
-{{- end }}
-{{- end }}

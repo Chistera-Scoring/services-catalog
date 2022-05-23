@@ -1,6 +1,6 @@
 apiVersion: v2
 name: 360video-transcoder
-description: A Helm chart for Kubernetes
+description: A 360 Video Transcoder Helm Chart
 
 # A chart can be either an 'application' or a 'library' chart.
 #
