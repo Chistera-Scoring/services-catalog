@@ -12,8 +12,8 @@ spec:
   template:
     metadata:
       annotations:
-        ovn.kubernetes.io/ingress_rate: {{ .Values.network.podIngressRate }}
-        ovn.kubernetes.io/egress_rate: {{ .Values.network.podEgressRate }}
+        ovn.kubernetes.io/ingress_rate: "{{ .Values.network.podIngressRate }}"
+        ovn.kubernetes.io/egress_rate: "{{ .Values.network.podEgressRate }}"
       labels:
         {{- include "360video-transcoder.selectorLabels" . | nindent 8 }}
     spec:
