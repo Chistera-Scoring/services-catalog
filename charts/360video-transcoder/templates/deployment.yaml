@@ -12,6 +12,7 @@ spec:
   template:
     metadata:
       annotations:
+        ovn.kubernetes.io/logical_switch: {{ .Values.network.SubNetName  }}
         ovn.kubernetes.io/ingress_rate: "{{ .Values.network.podIngressRate }}"
         ovn.kubernetes.io/egress_rate: "{{ .Values.network.podEgressRate }}"
       labels:

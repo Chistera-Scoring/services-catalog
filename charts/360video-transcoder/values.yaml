@@ -5,6 +5,7 @@ fullnameOverride: ""
 
 # this represents the kube-ovn parameters
 network:
+  SubNetName: ""
   podEgressRate: "20"
   podIngressRate: "20"
 
