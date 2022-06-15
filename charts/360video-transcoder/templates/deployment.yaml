@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
         - name: {{ .Chart.Name }}
-          image: nginx:1.14.2
+          image: akram0709/360video-transcoder:latest
           ports:
             - name: http
               containerPort: 80
