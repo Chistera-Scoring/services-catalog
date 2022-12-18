@@ -2,6 +2,7 @@ apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: {{ include "360video-transcoder.fullname" . }}
+  namespace: {{ include "360video-transcoder.namespace" . }}
   labels:
     {{- include "360video-transcoder.labels" . | nindent 4 }}
 spec:
