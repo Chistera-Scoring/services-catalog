@@ -3,12 +3,12 @@ entries:
   360video-transcoder:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2022-07-21T15:32:15.961468802+02:00"
+    created: "2022-12-18T14:48:00.425677005+01:00"
     description: A 360 Video Transcoder Helm Chart
-    digest: 5d5db5f45fdf5448e555f3f1c35307490d85c8d329b4c04f7f8549c7d727b65b
+    digest: e2f79e39a4b5bf418edb7e582133f8da1c5f20a4afebcbbd14a182efb94c6051
     name: 360video-transcoder
     type: application
     urls:
     - https://chistera-scoring.github.io/services-catalog/360video-transcoder-0.1.0.tgz
     version: 0.1.0
-generated: "2022-07-21T15:32:15.96096057+02:00"
+generated: "2022-12-18T14:48:00.42304715+01:00"
