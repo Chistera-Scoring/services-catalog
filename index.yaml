@@ -3,7 +3,7 @@ entries:
   360video-transcoder:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-23T18:13:35.302447363+01:00"
+    created: "2023-11-24T11:48:54.216399585+01:00"
     description: A 360 Video Transcoder Helm Chart
     digest: 4a0e235c9a42410b8c31ce29c16ad3fa30a28e5fae1faaf0d194dc5b0a28d497
     name: 360video-transcoder
@@ -14,12 +14,12 @@ entries:
   online-boutique:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2023-11-23T18:13:35.302597328+01:00"
+    created: "2023-11-24T11:48:54.22416002+01:00"
     description: A Helm chart for Kubernetes
-    digest: aec3fe47c1fab309fa67744e7f3ea3f71b9cde3f6bce3ed295d71485bcb2d5b8
+    digest: ea07850d9416db8d8e2cd0082954efc77136cc972efc4209d1b1efcf2dcb3521
     name: online-boutique
     type: application
     urls:
     - https://chistera-scoring.github.io/services-catalog/online-boutique-0.1.0.tgz
     version: 0.1.0
-generated: "2023-11-23T18:13:35.302206322+01:00"
+generated: "2023-11-24T11:48:54.216172962+01:00"
