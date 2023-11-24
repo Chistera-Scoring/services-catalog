@@ -59,6 +59,7 @@ apiVersion: v1
 kind: Service
 metadata:
   name: currencyservice
+  namespace: {{ include "online-boutique.namespace" . }}
 spec:
   type: ClusterIP
   selector:
